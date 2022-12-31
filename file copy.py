@@ -1,0 +1,7 @@
+fo1=open(r"D:\pythonpractice11\day9\new1.txt","r")
+fo2=open(r"D:\pythonpractice11\day9\new2.txt","w+")
+temp=fo1.read()
+fo2.write(temp)
+fo1.close()
+fo2.close()
+print('Text Copied')
