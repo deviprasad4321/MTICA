@@ -9,3 +9,4 @@ a=int(input())
 b=int(input())
 c=add(a,b)
 print(a,'+',b,'=',c)
+
